@@ -23,7 +23,7 @@
             <div class="d-inline-flex align-items-center text-white"> 
                 <ul class="navbar-nav d-none d-lg-flex align-items-center position-relative">    
                     <li class="nav-item"> 
-                        <a href="#" class="nav-link">       
+                        <a href="about.php" class="nav-link">       
                             ABOUT US
                         </a>   
                     </li>  
@@ -33,21 +33,17 @@
                         </a>  
                         <ul class="dropdown-menu p-2 rounded-3 border-0 bg-white" style="min-width:27rem;" aria-labelledby="drop2">   
                             <li>
-                                <a href="#" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">Commercial Construction</a> 
+                                <a href="interior.php" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">Interior Design</a> 
                             </li>  
                             <li>
-                                <a href="#" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">Residential Construction</a> 
+                                <a href="construction.php" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">construction</a> 
                             </li>  
                             <li>
-                                <a href="#" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">PWD Works</a> 
+                                <a href="home-renovation.php" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">Home Renovation</a> 
                             </li>  
                             <li>
-                                <a href="#" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">Interior Design</a> 
+                                <a href="landscape.php" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">Landscape Design</a> 
                             </li>  
-                            <li>
-                                <a href="#" class="dropdown-item fw-medium rounded-3 p-2 text-uppercase">Landscaping</a> 
-                            </li>  
-                            
                         </ul> 
                     </li>                             
                     <li class="nav-item ms-lg-1 ms-xl-4"> 
@@ -61,7 +57,7 @@
                         </a>  
                     </li>       
                     <li class="nav-item ms-lg-1 ms-xl-4"> 
-                        <a href="#" class="nav-link"> 
+                        <a href="contact.php" class="nav-link"> 
                             CONTACTS 
                         </a> 
                     </li>           
