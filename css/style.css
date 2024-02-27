@@ -108,71 +108,13 @@
 .service__card {
   overflow: hidden;
 }
-.service__card .num {
-  color: #B9B9B9;
-}
-.service__card .icon {
-  height: 1rem;
-  width: auto;
-}
-.service__card .icon:hover {
-  transform: translateX(4px);
-  transition: all 0.3s ease-in-out;
-}
-.service__card .title {
-  color: #5D5D5D;
-}
-.service__card .title a {
-  color: #5D5D5D;
-}
-.service__card .desc {
-  color: #5D5D5D;
-  height: 13rem;
-  overflow-y: auto;
-  min-height: 7rem;
-}
-.service__card .scroll {
-  height: 11rem;
-}
-.service__card .more__btn span {
-  display: none;
-}
 .service__card .overlay__wrap {
   transform: translateY(100%);
   transition: all 0.3s ease-in-out;
   z-index: 0;
 }
-.service__card:hover .icon {
-  filter: contrast(0) brightness(10);
-  transition: all 0.3s ease-in-out;
-}
-.service__card:hover .title {
-  color: var(--white);
-}
-.service__card:hover .title a {
-  color: var(--white);
-}
-.service__card:hover .title a:hover {
-  color: var(--brand);
-}
-.service__card:hover .desc, .service__card:hover .num {
-  color: var(--white);
-}
 .service__card:hover .overlay__wrap {
   transform: translateY(0);
-}
-.service__card:hover .more__btn {
-  color: var(--white);
-}
-.service__card:hover .more__btn span {
-  display: inline-block;
-}
-.service__card:hover .more__btn .arrow__wrap {
-  filter: contrast(0) brightness(10);
-  transition: all 0.3s ease-in-out;
-}
-.service__card.detail .desc {
-  height: auto;
 }
 
 .fixed__title {

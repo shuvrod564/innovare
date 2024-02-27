@@ -108,17 +108,16 @@
 
 .service__card{
     overflow: hidden;
-   
+
     .overlay__wrap {
         transform: translateY(100%);transition: all .3s ease-in-out;z-index: 0;
     }
-
     &:hover {
-        .icon { filter: contrast(0) brightness(10);transition: all .3s ease-in-out; }
+        .overlay__wrap {
+            transform: translateY(0);
+        }
     } 
 }
-
-
 
 .fixed__title {
     font-size: calc(2rem + 2vw);color: #333;font-weight: 700;text-transform: uppercase;
