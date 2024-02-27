@@ -106,69 +106,19 @@
 }
 
 
-
-
 .service__card{
     overflow: hidden;
-    
-    .num{
-        color: #B9B9B9;
-    }
-    .icon { height: 1rem;width: auto;
-        &:hover{
-            transform: translateX(4px);transition: all .3s ease-in-out
-        }
-     }
-    .title {
-        color: #5D5D5D;
-        a {
-            color: #5D5D5D; 
-        }
-    }
-    .desc { color: #5D5D5D;height: 13rem;overflow-y: auto;min-height: 7rem; }
-    .scroll { height: 11rem; }
-    .more__btn{
-        span{
-            display: none;
-        }
-    }
+   
     .overlay__wrap {
         transform: translateY(100%);transition: all .3s ease-in-out;z-index: 0;
     }
 
     &:hover {
         .icon { filter: contrast(0) brightness(10);transition: all .3s ease-in-out; }
-        .title {
-            color: var(--white);
-            a  {
-                color: var(--white);
-
-                &:hover {
-                    color: var(--brand);
-                }
-            }
-        }
-        .desc, .num {
-            color: var(--white);
-        }
-        .overlay__wrap {
-            transform: translateY(0);
-        }
-        .more__btn{
-            color: var(--white);
-            span{
-                display: inline-block;
-            }
-            .arrow__wrap{
-                filter: contrast(0) brightness(10);transition: all .3s ease-in-out;
-            }
-        }
     } 
-
-    &.detail {
-        .desc { height: auto; }
-    }
 }
+
+
 
 .fixed__title {
     font-size: calc(2rem + 2vw);color: #333;font-weight: 700;text-transform: uppercase;
