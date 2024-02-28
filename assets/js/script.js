@@ -170,7 +170,7 @@ function topFunction() {
    
   
   // Modal Quick Enquery Form Validation Script
-  $("#modalBookingForm").submit(function () {
+  $("#contactForm").submit(function () {
     if (validatecontactForm()) {
         return true;
     }
@@ -184,95 +184,53 @@ function topFunction() {
     $(".meerror").html('');
 
     // User name validation
-    if (!$("#mfull_name").val()) {
-        $("#mfull_name_error").html("Name is required");
-        $("#mfull_name").css('border-color', '#dc3545');
+    if (!$("#name").val()) {
+        $("#name_error").html("Name is required");
+        $("#name").css('border-color', '#dc3545');
         valid = false;
     } else {
-        $("#mfull_name_error").html("");
-        $("#mfull_name").css('border-color', '#099f1a');
+        $("#name_error").html("");
+        $("#name").css('border-color', '#099f1a');
     }
 
     //  
-    if (!$("#memail_address").val()) {
-        $("#memail_address_error").html("Email is required");
-        $("#memail_address").css('border-color', '#dc3545');
+    if (!$("#email").val()) {
+        $("#email_error").html("Email is required");
+        $("#email").css('border-color', '#dc3545');
         valid = false;
-    } else if (!$("#memail_address").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
-        $("#memail_address_error").html("Invalid email");
-        $("#memail_address").css('border-color', '#dc3545');
+    } else if (!$("#email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+        $("#email_error").html("Invalid email");
+        $("#email").css('border-color', '#dc3545');
         valid = false;
     } else {
-        $("#memail_address_error").html("");
-        $("#memail_address").css('border-color', '#099f1a');
+        $("#email_error").html("");
+        $("#email").css('border-color', '#099f1a');
     } 
 
     //  
-    var phno = $.trim($('#mphone_no').val());
+    var phno = $.trim($('#phone').val());
     var che_phno = /^[0-9]{7,15}$/;
-    if (!$("#mphone_no").val()) {
-        $("#mphone_no_error").html("Phone number required");
-        $("#mphone_no").css('border-color', '#dc3545');
+    if (!$("#phone").val()) {
+        $("#phone_error").html("Phone number required");
+        $("#phone").css('border-color', '#dc3545');
         valid = false;
     } if (!che_phno.test(phno)) {
-        $("#mphone_no").css('border-color', '#dc3545');
-        $("#mphone_no_error").html('Please enter valid phone no');
+        $("#phone").css('border-color', '#dc3545');
+        $("#phone_error").html('Please enter valid phone no');
         valid = false;
     } else if (phno.length < 7 || phno.length > 15) {
-        $("#mphone_no").css('border-color', '#dc3545');
-        $("#mphone_no_error").html('Phone no. must be greater than or equals to 10 and less than or equals to 15 digits!!');
+        $("#phone").css('border-color', '#dc3545');
+        $("#phone_error").html('Phone no. must be greater than or equals to 10 and less than or equals to 15 digits!!');
         // $("#dash_phone_error").css("color", "#FC0000"); 
         valid = false;
     } else {
-        $("#mphone_no_error").html("");
-        $("#mphone_no").css('border-color', '#099f1a');
+        $("#phone_error").html("");
+        $("#phone").css('border-color', '#099f1a');
     } 
-
-    if (!$("#mtravel_date").val()) {
-      $("#mtravel_date_error").html("Date is required");
-      $("#mtravel_date").css('border-color', '#dc3545');
-      valid = false;
-    } else {
-        $("#mtravel_date_error").html("");
-        $("#mtravel_date").css('border-color', '#099f1a');
-    }
-
-    if (!$("#mno_of_people").val()) {
-      $("#mno_of_people_error").html("No of people required");
-      $("#mno_of_people").css('border-color', '#dc3545');
-      valid = false;
-    } else {
-        $("#mno_of_people_error").html("");
-        $("#mno_of_people").css('border-color', '#099f1a');
-    }
-    if (!$("#mno_of_adult").val()) {
-      $("#mno_of_adult_error").html("No of adult required");
-      $("#mno_of_adult").css('border-color', '#dc3545');
-      valid = false;
-    } else {
-        $("#mno_of_adult_error").html("");
-        $("#mno_of_adult").css('border-color', '#099f1a');
-    }
-    if (!$("#mno_of_child").val()) {
-      $("#mno_of_child_error").html("No of child required");
-      $("#mno_of_child").css('border-color', '#dc3545');
-      valid = false;
-    } else {
-        $("#mno_of_child_error").html("");
-        $("#mno_of_child").css('border-color', '#099f1a');
-    }
-
+ 
     return valid;
   }
-
-  // Modal Quick Enquery Form Set Blank When Modal Is Close
-  var enquirModal = document.getElementById("bookingModal");
-  enquirModal.addEventListener('hidden.bs.modal', function(e) {
-    $("#mfull_name, #memail_address, #mphone_no, #mtravel_date, #mno_of_people, #mno_of_adult, #mno_of_child").val('');
-    $("#mfull_name, #memail_address, #mphone_no, #mtravel_date, #mno_of_people, #mno_of_adult, #mno_of_child").css('border-color', '#ced4da');
-    $("#mfull_name_error, #memail_address_error, #mphone_no_error, #mtravel_date_error, #mno_of_people_error, #mno_of_adult_error, #mno_of_child_error").html('');
-  });
-
+ 
  
  
  

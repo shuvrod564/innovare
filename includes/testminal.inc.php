@@ -4,7 +4,7 @@
             <h2 class="fs-2 text-center text-white spacing-x mb-4">WHAT OUR HAPPY CLIENTS SAYS</h2> 
             <div class="px-2"> 
                 <div class="owl-carousel testimonialSlider">
-                    <div class="testi__card bordered bg-primary text-white d-flex align-items-center">
+                    <div class="testi__card bordered bg-primary text-white d-sm-flex align-items-center">
                         <div class="col px-3 px-md-4 py-4 py-md-5">
                             <p class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</p>
                             <p class="mt-3 mb-0">

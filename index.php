@@ -20,14 +20,20 @@
     <!-- header section start -->
     <header class="header__wrapper">
         <div class="container"> 
-            <div class="thumbnail position-relative"> 
+            <div class="position-relative"> 
                 <img 
+                    srcset="
+                    assets/images/home/hero-banner-sm.webp 575w,
+                    assets/images/home/hero-banner-md.webp 991w,
+                    assets/images/home/hero-banner.webp 1200w 
+                    
+                    " 
                     src="assets/images/home/hero-banner.webp" 
                     width="1903" height="600"
                     alt="<?php echo $site_name;?>"
-                    class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover thumbnail"
+                    class="img-fluid object-cover thumbnail"
                 >
-                <div class="position-absolute text-center text-lg-start extra__box p-2 p-sm-3 p-lg-4 bottom-0 end-0">
+                <div class="position-absolute text-center text-lg-start extra__box pt-4 p-sm-3 p-lg-4 bottom-0 end-0">
                     <h1 class="fs-3 text-white fw-semibold mb-0 ff-heading">Welcome To Innovare Constructions</h1>
                     <p class="lead fw-normal text-white ff-heading">At Innovare Constructions, we’re not just building spaces;</p>
                 </div>
@@ -116,12 +122,12 @@
                     <div class="z-index">
                         <p class="mb-2 fs-3 fw-bold text-white opacity-50">04</p>
                         <h3 class="fs-5 title fw-bold"> 
-                            <a class="text-white" href="#">Interior Design</a> 
+                            <a class="text-white" href="<?php echo $base_url;?>interior-design.php">Interior Design</a> 
                         </h3>
                         <p class=" mt-4 text-white">
                             Transform your space into a reflection of your taste and lifestyle with our interior design services. From contemporary to classic, we create interiors that inspire.
                         </p> 
-                        <a href="#" class="icon" aria-label="Arrow" title="Know More"> 
+                        <a href="<?php echo $base_url;?>interior-design.php" class="icon" aria-label="Arrow" title="Know More"> 
                             <img src="assets/images/icons/right-arrow.svg" width="27" height="15" alt="Arrow">
                         </a>
                     </div> 
@@ -132,12 +138,12 @@
                     <div class="z-index">
                         <p class="mb-2 fs-3 fw-bold text-white opacity-50">05</p>
                         <h3 class="fs-5 title fw-bold"> 
-                            <a class="text-white" href="#">Landscaping</a> 
+                            <a class="text-white" href="<?php echo $base_url;?>landcape.php">Landscaping</a> 
                         </h3>
                         <p class=" mt-4 text-white">
                             Our landscaping services are designed to enhance your outdoor spaces, creating beautiful, sustainable environments that uplift and inspire. 
                         </p> 
-                        <a href="#" class="icon" aria-label="Arrow" title="Know More"> 
+                        <a href="<?php echo $base_url;?>landcape.php" class="icon" aria-label="Arrow" title="Know More"> 
                             <img src="assets/images/icons/right-arrow.svg" width="27" height="15" alt="Arrow">
                         </a>
                     </div> 
@@ -172,7 +178,7 @@
                             Our journey paints a story of humble beginnings, fueled by an unwavering passion and dedication. It’s a narrative of transformation, from a modest startup to a beacon of excellence within the construction industry. This journey has been shaped by a continuous pursuit of growth, not just in scale but in the mastery of our craft. Our evolution is marked by an enduring commitment to innovation, quality, and the cultivation of a skilled team that shares our vision and values. As we look back on our path to becoming an industry leader, it’s clear that our foundation of family values, combined with our passion for construction, has been instrumental in our success. It’s this unique blend that enables us to create not just buildings, but legacies.
                         </p>
                         <div class="text-center text-lg-start mt-4">
-                            <a href="#" class="btn btn-outline-white height fw-semibold" aria-label="KNOW MORE">KNOW MORE</a> 
+                            <a href="<?php echo $base_url;?>about.php" class="btn btn-outline-white height fw-semibold" aria-label="KNOW MORE">KNOW MORE</a> 
                         </div>
                     </div>
                 </div><!--//.col-->
@@ -346,7 +352,7 @@
     <!-- Our Vision section End -->
     
     <!-- Successful section --> 
-    <?php $folder='root'; include_once('includes/successful.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/projects-section.inc.php'); ?> 
     <!-- Successful section --> 
 
     <!-- Testminal section --> 
@@ -358,7 +364,7 @@
     <!--Blogs section --> 
 
     <!--lets-discuss section --> 
-    <?php $folder='root'; include_once('includes/lets-discuss.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/contact-section.inc.php'); ?> 
     <!--lets-discuss section --> 
 
     <!-- Footer and Script List --> 

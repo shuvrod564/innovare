@@ -4,10 +4,10 @@
             <h2 class="h2 text-uppercase text-white text-center">OUR SUCCESSFUL PROJECTS</h2>
             <nav class="mt-4 mt-xl-5 text-white">
                 <div class="nav nav-tabs mx-auto border-0 justify-content-center" id="nav-tab" role="tablist">
-                    <button class="nav-link border-0 m-0 lead fw-bold active" id="nav-tab1-tab" data-bs-toggle="tab" data-bs-target="#nav-tab1" type="button" role="tab" aria-controls="nav-tab1" aria-selected="true">Commercial Highlights</button>
-                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab2-tab" data-bs-toggle="tab" data-bs-target="#nav-tab2" type="button" role="tab" aria-controls="nav-tab2" aria-selected="false">Residential Highlights</button>
-                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab3-tab" data-bs-toggle="tab" data-bs-target="#nav-tab3" type="button" role="tab" aria-controls="nav-tab3" aria-selected="false">Unique Interior Designs</button>
-                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab4-tab" data-bs-toggle="tab" data-bs-target="#nav-tab4" type="button" role="tab" aria-controls="nav-tab4" aria-selected="false">Transformative Landscaping</button>
+                    <button class="nav-link border-0 m-0 lead fw-bold active" id="nav-tab1-tab" data-bs-toggle="tab" data-bs-target="#nav-tab1" type="button" role="tab" aria-controls="nav-tab1" aria-selected="true"><span>Commercial Highlights</span></button>
+                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab2-tab" data-bs-toggle="tab" data-bs-target="#nav-tab2" type="button" role="tab" aria-controls="nav-tab2" aria-selected="false"><span>Residential Highlights</span></button>
+                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab3-tab" data-bs-toggle="tab" data-bs-target="#nav-tab3" type="button" role="tab" aria-controls="nav-tab3" aria-selected="false"><span>Unique Interior Designs</span></button>
+                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab4-tab" data-bs-toggle="tab" data-bs-target="#nav-tab4" type="button" role="tab" aria-controls="nav-tab4" aria-selected="false"><span>Transformative Landscaping</span></button>
                 </div>
             </nav>
             <div class="tab-content pt-4" id="nav-tabContent">

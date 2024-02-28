@@ -1,7 +1,7 @@
     <!-- Blogs Services Start --> 
     <section class="py-5">
         <div class="container"> 
-            <h2 class="fs-2 text-center text-white spacing-x pb-5">LATEST BLOGS</h2>
+            <h2 class="fs-2 text-center text-white spacing-x pb-4">LATEST BLOGS</h2>
             <div class="blog__wrapper text-white">
                 <div class="owl-carousel serviceSlider">
                     <div class="bordered p-3 p-md-4 py-md-5 bg-primary">

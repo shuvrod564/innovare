@@ -18,25 +18,28 @@
 
     
     <!-- header section start -->
-    <header class="">
-        <div class="container"> 
-            <img 
-                src="assets/images/construction/construction__hero.webp" 
-                width="1296" height="197"
-                alt="<?php echo $site_name;?>"
-                class="img-fluid w-100 object-fit-cover"
-            >
-        </div>
-    </header>
+    <div class="container"> 
+        <img 
+            srcset="
+                assets/images/construction/construction-hero-bg-sm.webp 575w,
+                assets/images/construction/construction-hero-bg-md.webp 991w,
+                assets/images/construction/construction-hero-bg.webp 1200w
+            " 
+            src="assets/images/construction/construction-hero-bg.webp" 
+            width="1296" height="197"
+            alt="<?php echo $site_name;?>"
+            class="img-fluid w-100 object-fit-cover rounded-3"
+        >
+    </div> 
     <!-- header section end -->
 
     <!--  Excellence section Start -->
     <section class="py-5 bg-primary">
-        <div class="container py-xl-5">
+        <div class="container py-xl-4">
             <div class="row g-4 g-xxl-5">
                 <div class="col-lg-6">
                     <div class="py-lg-2 text-white text-center text-lg-start">
-                        <h2 class="fs-1 fw-bold spacing-x">Excellence in Construction in Kottayam</h2>
+                        <h1 class="fs-1 fw-bold spacing-x">Excellence in Construction in Kottayam</h1>
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-6">
@@ -48,14 +51,8 @@
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
-        </div><!--//.container-->
-    </section>
-    <!--  Excellence section End -->
-
-    <!--Innovare Constructions section Start -->
-    <section class="">
-        <div class="container">
-            <div class="row g-4 g-xxl-5">
+ 
+            <div class="row g-4 gx-xxl-5 mt-5">
                 <div class="col-lg-5 order-lg-2">
                     <img 
                         src="assets/images/construction/construction-site.webp" 
@@ -66,9 +63,11 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white  text-center text-lg-start">
-                        <p class="top__title text-white fw-semibold lead-lg m-0">Innovare Constructions</p> 
-                        <h2 class="fs-1 fw-bold spacing-x pb-4">Building Trust in Kottayam</h2>
-                        <p class="text-white fw-semibold lead-lg m-0">A Tradition of Excellence</p> 
+                        <h2 class="fs-1 fw-bold spacing-x mb-3 text-uppercase">
+                            <span class="top__title text-white fw-semibold lead-lg m-0 d-block">Innovare Constructions</span> 
+                            Building Trust in Kottayam
+                        </h2>
+                        <p class="text-white fw-semibold lead-lg mb-3">A Tradition of Excellence</p> 
                         <p class="">
                             Our philosophy is both simple and profound: to transform your vision into reality, creating environments in Kottayam that resonate with your soul. We understand that a home is more than a sanctuary; it's a retreat from the world that should mirror your individuality and style. This understanding drives our commitment to not only meet but exceed your expectations with unparalleled craftsmanship, meticulous attention to detail, and innovative design solutions.
                         </p>
@@ -77,11 +76,12 @@
             </div><!--//.row-->
         </div><!--//.container-->
     </section>
-    <!--Innovare Constructions section End -->
+    <!--  Excellence section End -->
+ 
 
     <!--Innovare Customized section Start -->
-    <section class="py-5">
-        <div class="container py-xl-5">
+    <section class="py-md-5 pb-5">
+        <div class="container">
             <div class="row g-4 g-xxl-5">
                 <div class="col-lg-5">
                     <img 
@@ -93,9 +93,11 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 d-flex align-items-center">
                     <div class="py-lg-2 text-white  text-center text-lg-start">
-                        <p class="top__title text-white fw-semibold lead-lg m-0">Innovare Constructions</p> 
-                        <h2 class="fs-1 fw-bold spacing-x pb-4">Customized Building Excellence in Kottayam</h2>
-                        <p class="text-white fw-semibold lead-lg m-0">Diverse Construction Services</p> 
+                        <h2 class="fs-1 fw-bold spacing-x pb-2 text-uppercase">
+                            <span class="top__title text-white fw-semibold lead-lg mb-2 d-block">Innovare Constructions</span> 
+                            Customized Building Excellence in Kottayam
+                        </h2>
+                        <p class="text-white fw-semibold lead-lg mb-2">Diverse Construction Services</p> 
                         <p class="">
                             As a leading construction company in Kottayam, Innovare Constructions specializes in both residential construction services in Kottayam and commercial building projects. Our expertise lies in delivering tailored solutions that cater to the unique needs of each project, whether it's a cozy home or a sprawling commercial complex. With a focus on innovative design solutions and customization, we ensure that every project, be it commercial construction in Kottayam or residential construction in Kottayam, is executed with precision, meeting our clients' visions and exceeding their expectations.
                         </p>
@@ -109,25 +111,37 @@
     <!-- Sustainability section Start -->
     <section class="py-3">
         <div class="container">
-            <div class="row g-4 g-xxl-5">
+            <div class="row g-4 gx-xxl-5">
                 <div class="col-lg-5 order-lg-2 align-items-center d-flex">
                     <img 
-                        src="assets/images/interior/dining-room.webp" 
+                        srcset="
+                            assets/images/construction/Green-Building-Commitment-sm.webp 575w,
+                            assets/images/construction/Green-Building-Commitment-md.webp 991w,
+                            assets/images/construction/Green-Building-Commitment.webp 1200w,
+                            assets/images/construction/Green-Building-Commitment-xl.webp 2000w 
+                        " 
+                        src="assets/images/construction/Green-Building-Commitment.webp" 
+                        sizes="(max-width:575px) 450px, (max-width:991px) 720px, (max-width:1200w) 530px"
                         alt="Why Choose"
                         class="img-fluid w-100 object-fit-cover" width="512" height="666" 
                     >
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white text-center text-lg-start">
-                        <p class="top__title text-white fw-semibold lead-lg m-0">Pioneering Sustainability</p> 
-                        <h2 class="fs-1 fw-bold spacing-x text-uppercase"> Innovare's Green Building Commitment</h2>
-                        <p class="top__title text-white fw-semibold lead-lg pt-4 mb-0">Innovare Constructions: Leading Eco-Friendly Solutions in Kottayam</p>
+                        <h2 class="fs-1 fw-bold spacing-x text-uppercase"> 
+                            <span class="top__title text-white fw-semibold lead-lg mb-2 d-block">Pioneering Sustainability</span> 
+                            Innovare's Green Building Commitment
+                        </h2>
+                        <p class="top__title text-white fw-semibold lead-lg pt-3 mb-0">Innovare Constructions: Leading Eco-Friendly Solutions in Kottayam</p>
                         <p class="m-0">
                             At Innovare Constructions, our dedication to sustainable building and green practices sets us apart as a forward-thinking construction company in Kottayam. We are committed to reducing environmental impact through innovative construction methods and materials that promote energy efficiency and ecological balance.
                         </p>
                         <p class="top__title text-white fw-semibold lead-lg pt-4 mb-0">Smart and Sustainable: The Innovare Approach</p>
-                        <p class="m-0">
+                        <p class="mb-2">
                             Our projects integrate smart home technologies and energy-efficient designs, ensuring that every construction not only meets the needs of today but also considers the well-being of future generations. From residential construction in Kottayam to commercial projects, our approach emphasizes sustainability without compromising on quality or aesthetics.
+                        </p>
+                        <p>
+                            By choosing Innovare Constructions, you're partnering with a leader in eco-friendly construction solutions in Kottayam, dedicated to building a greener, smarter future.
                         </p>
                     </div>
                 </div><!--//.col-->
@@ -139,9 +153,11 @@
     <!-- Crafting Services Start --> 
     <section class="py-5 scroller">
         <div class="container py-xl-5"> 
-            <p class="top__title text-center text-white fw-semibold lead-lg m-0">Innovare Constructions</p>
-            <h2 class="fs-3 text-center text-white spacing-x ">Crafting Your Vision from Ground Up</h2>
-            <p class="top__title text-center text-white fw-semibold lead-lg pb-4">A Journey from Concept to Completion</p>
+            <h2 class="fs-3 text-center text-white spacing-x text-uppercase">
+                <span class="top__title text-center text-white fw-normal lead-lg mb-2 d-block">Innovare Constructions</span>
+                Crafting Your Vision from Ground Up
+            </h2>
+            <p class="top__title text-center text-white fw-normal text-uppercase lead pb-4">A Journey from Concept to Completion</p>
             <div class="carousel__wrapper">
                 <div class="owl-carousel serviceSlider">
                     <div class="services__card bg-primary text-white">
@@ -187,7 +203,7 @@
     <!-- Crafting Services end -->
 
     <!-- Client and Script List --> 
-    <?php $folder='root'; include_once('includes/client.inc.php'); ?>
+    <?php $folder='root'; include_once('includes/video-section.inc.php'); ?>
     
     <!--Innovare Constructions section Start -->
     <section class="py-5">
@@ -203,8 +219,8 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white  text-center text-lg-start">
-                        <h2 class="fs-1 fw-bold spacing-x pb-3">Begin Your Dream Project with Innovare Constructions</h2>
-                        <p class="text-white fw-semibold lead-lg">Embark on a Journey of Creation</p> 
+                        <h2 class="fs-2 fw-medium spacing-x pb-3 text-uppercase">Begin Your Dream Project with Innovare Constructions</h2>
+                        <p class="text-white fw-medium lead-lg">Embark on a Journey of Creation</p> 
                         <p class="">
                             Our philosophy is both simple and profound: to transform your vision into reality, creating environments in Kottayam that resonate with your soul. We understand that a home is more than a sanctuary; it's a retreat from the world that should mirror your individuality and style. This understanding drives our commitment to not only meet but exceed your expectations with unparalleled craftsmanship, meticulous attention to detail, and innovative design solutions.
                         </p>
@@ -216,7 +232,7 @@
     <!--Innovare Constructions section End -->
 
     <!-- Successful section --> 
-    <?php $folder='root'; include_once('includes/successful.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/projects-section.inc.php'); ?> 
     <!-- Successful section --> 
 
     <!-- Testminal section --> 
@@ -228,7 +244,7 @@
     <!--Blogs section --> 
 
     <!--lets-discuss section --> 
-    <?php $folder='root'; include_once('includes/lets-discuss.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/contact-section.inc.php'); ?> 
     <!--lets-discuss section --> 
 
     <!-- Footer and Script List --> 

@@ -7,13 +7,13 @@
                     <div class="row g-4">
                         <div class="col-lg-4 text-center text-lg-start"> 
                             <a href="<?php echo $base_url;?>" class="d-inline-block logo" title="<?php echo $base_url;?>">
-                                <img src="assets/images/logo.svg" class="img-fluid" width="250" height="135" alt="<?php echo $site_name;?>">
+                                <img src="<?php echo $base_url;?>assets/images/logo.svg" class="img-fluid" width="250" height="135" alt="<?php echo $site_name;?>">
                             </a>
                         </div>
                         <div class="col-lg-8 text-center text-lg-end">
-                            <a href="tel:+919987654321" class="fs-2 d-inline-flex align-items-center gap-2 fs-15 fw-semibold text-white" aria-label="(+91) 998 - 765 - 4321">
-                                <img src="assets/images/icons/phone-call.svg" width="44" height="44" alt="phone">
-                                <span>(+91) 998 - 765 - 4321</span>
+                            <a href="tel:+917511161313" class="fs-2 d-inline-flex align-items-center gap-2 fs-15 fw-semibold text-white" aria-label="(+91) 751-116-1313">
+                                <img src="<?php echo $base_url;?>assets/images/icons/phone-call.svg" width="44" height="44" alt="phone">
+                                <span>(+91) 751 116 1313</span>
                             </a>
                         </div>
                     </div>  
@@ -21,44 +21,46 @@
                 <div class="row g-4 align-items-center"> 
                     <div class="col-lg-3 col-md-6 col-sm-6">      
                         <ul class="links text-white"> 
-                            <li class="mb-2"><a href="#">Home</a></li>
-                            <li class="mb-2"><a href="#">About Us</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>">Home</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>about.php">About Us</a></li>
                             <li class="mb-2"><a href="#">Services</a></li>
                             <li class="mb-2"><a href="#">Gallery</a></li>
                             <li class="mb-2"><a href="#">Blog</a></li>           
-                            <li class="mb-2"><a href="#">Contacts</a></li>       
+                            <li class="mb-2"><a href="<?php echo $base_url;?>contact.php">Contacts</a></li>       
                         </ul>
                     </div><!--.//col-->
                     <div class="col-lg-5 col-md-6 col-sm-6">      
                         <p class="text-white fw-medium lead-sm mb-1">Email</p>
-                        <a href="#" class="text-white">innovarecojnstruction@gmail.com</a>
+                        <a href="#" class="text-white ff-heading text-lowercase">innovarecojnstruction@gmail.com</a>
                         <p class="text-white fw-medium lead-sm mt-3 mb-1">Phone</p>
-                        <a href="#" class="text-white">+91 9987654321 <span class="d-block">+91 9987654321</span></a>
+                        <a href="teL:+917511161313" class="text-white ff-heading text-lowercase">+91 751 116 1313</a> 
                         <p class="text-white fw-medium lead-sm mt-3 mb-1">Address</p>
-                        <a href="#" class="text-white">3 Madison Street,Kerala 688522</a>
+                        <address class="text-white ff-heading text-lowercase">
+                        1/104C plathottathil building Poonjar po ,perunilam ,kottayam
+                        </address>
                     </div><!--.//col-->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <p class="text-white fw-medium lead-sm mt-3 mb-1">Services</p>           
                         <ul class="links text-white"> 
-                            <li class="mb-2"><a href="#">Commercial Construction</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>construction.php">Commercial Construction</a></li>
                             <li class="mb-2"><a href="#">Residential Construction</a></li>
                             <li class="mb-2"><a href="#">Services</a></li>
                             <li class="mb-2"><a href="#">PWD Works</a></li>
-                            <li class="mb-2"><a href="#">Interior Design</a></li>           
-                            <li class="mb-2"><a href="#">Landscaping</a></li>       
+                            <li class="mb-2"><a href="<?php echo $base_url;?>interior-design.php">Interior Design</a></li>           
+                            <li class="mb-2"><a href="<?php echo $base_url;?>landscape.php">Landscaping</a></li>       
                         </ul>
                     </div><!--.//col-->
                 </div>
 
                 <div class="copyright__wrapp py-2 mt-3 position-relative border-top" style="border-color: #444 !important;">
-                    <div class="d-flex justify-content-between pt-3">
+                    <div class="d-sm-flex text-center justify-content-between pt-3">
                         <div class="">
                             <?php $classes="footer"; include('_social-links.inc.php'); ?>
                         </div>
                         <div class="mt-2 text-white">
                              Designed by
-                            <a href="#" target="_blank" class="d-inline text-white">
-                                    Techpullers.com
+                            <a href="https://techpullers.com/website-dev.php" target="_blank" class="d-inline text-white">
+                                    Techpullers
                             </a>
                         </div>
                     </div> 

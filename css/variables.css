@@ -447,16 +447,17 @@ ul li {
   top: 96%;
   left: 0%;
   width: 100%;
-  min-width: 16rem;
+  min-width: 14rem;
   transition: all 0.3s ease;
   transform: scaleY(0);
   opacity: 0;
+  background-color: var(--brand-dark);
   visibility: hidden;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
   overflow: hidden;
 }
 .navbar .dropdown .dropdown-menu .dropdown-item {
-  color: var(--link-color);
+  color: var(--white);
   font-size: 0.937rem;
   display: block;
   padding: 0.5rem 1rem;
@@ -471,7 +472,6 @@ ul li {
 }
 .navbar .dropdown .dropdown-menu .active .dropdown-item {
   color: var(--brand);
-  border-left: 0.25rem solid var(--brand);
   background-color: #e9ecef;
 }
 .navbar .dropdown .dropdown-menu.show {
@@ -480,7 +480,7 @@ ul li {
   visibility: visible;
 }
 .navbar .dropdown:hover > .nav-link {
-  color: var(--brand);
+  color: var(--white);
 }
 .navbar .dropdown:hover > .nav-link .caret {
   transform: rotate(-180deg);

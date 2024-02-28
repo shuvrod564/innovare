@@ -16,46 +16,46 @@
     <!-- Preloader, Main Navigation Menu --> 
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
-    <!-- header section start -->
-    <header class="">
-        <div class="container"> 
-            <img 
-                src="assets/images/interior/interior__hero.webp" 
-                width="1296" height="167"
-                alt="<?php echo $site_name;?>"
-                class="img-fluid w-100 object-fit-cover"
-            >
-        </div>
-    </header>
+    <!-- header section start --> 
+    <div class="container"> 
+        <img 
+            srcset="
+                assets/images/interior/hero-bg-sm.webp 575w,
+                assets/images/interior/hero-bg-md.webp 991w,
+                assets/images/interior/hero-bg.webp 1200w
+            " 
+            src="assets/images/interior/hero-bg.webp" 
+            width="1296" height="197"
+            alt="<?php echo $site_name;?>"
+            class="img-fluid w-100 object-fit-cover rounded-3"
+        >
+    </div> 
     <!-- header section end -->
 
     <!--  Welcomee section Start -->
     <section class="py-5 bg-primary">
-        <div class="container py-xl-5">
+        <div class="container py-xl-4">
             <div class="row g-4 g-xxl-5">
                 <div class="col-lg-6">
                     <div class="py-lg-2 text-white  text-center text-lg-start"> 
-                        <p class="top__title text-white fw-semibold lead-lg">Welcome to Innovare Constructions</p>
-                        <h2 class="fs-1 fw-bold spacing-x">Your Premier Interior Designers in Kottayam</h2>
+                        <h1 class="fs-1 fw-bold spacing-x text-uppercase">
+                            <span class="top__title text-white fw-semibold lead-lg d-block mb-2">Welcome to Innovare Constructions</span>
+                            Your Premier Interior Designers in Kottayam
+                        </h1>
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <div class="py-lg-2 text-white text-center text-lg-start"> 
-                        <p class="top__title text-white fw-semibold lead-lg">Unveiling a Legacy of Design Excellence in Kottayam</p>
+                        <h2 class="top__title text-white fw-semibold lead-lg">Unveiling a Legacy of Design Excellence in Kottayam</h2>
                         <p class=" mt-3">
                             At Innovare Constructions, we go beyond the traditional boundaries of construction to breathe life into the spaces you cherish. Located in the vibrant heart of Kottayam, our journey is woven with a rich tapestry of designs that reflect more than mere aesthetics; they narrate the story of your life, dreams, and aspirations. As a revered family-owned enterprise, we embed the warmth of personal connections into the foundation of our projects, making us the go-to interior designers in Kottayam.
                         </p>
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
-        </div><!--//.container-->
-    </section>
-    <!--  Welcome section End -->
 
-    <!-- Crafting Homes section Start -->
-    <section class="">
-        <div class="container">
-            <div class="row g-4 g-xxl-5">
+
+            <div class="row g-4 gx-xxl-5 mt-4">
                 <div class="col-lg-5 order-lg-2">
                     <img 
                         src="assets/images/interior/crafting-homes.webp" 
@@ -66,7 +66,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white  text-center text-lg-start"> 
-                        <h2 class="fs-1 fw-bold spacing-x">Crafting Homes, Not Just Spaces, in Kottayam</h2>
+                        <h2 class="fs-1 fw-semibold spacing-x text-uppercase">Crafting Homes, Not Just Spaces, in Kottayam</h2>
                         <p class=" mt-3">
                             Our philosophy is both simple and profound: to transform your vision into reality, creating environments in Kottayam that resonate with your soul. We understand that a home is more than a sanctuary; it's a retreat from the world that should mirror your individuality and style. This understanding drives our commitment to not only meet but exceed your expectations with unparalleled craftsmanship, meticulous attention to detail, and innovative design solutions.
                         </p>
@@ -75,14 +75,15 @@
             </div><!--//.row-->
         </div><!--//.container-->
     </section>
-    <!-- Crafting Homes section End -->
+    <!--  Welcome section End -->
+ 
 
     <!-- Interior Design Services Start --> 
-    <section class="py-5 scroller">
-        <div class="container py-xl-5"> 
-            <h2 class="fs-3 text-center text-white spacing-x ">Our Expertise in Interior Design</h2>
-            <p class="top__title text-center text-white fw-semibold lead-lg pb-5">Welcome to Innovare Constructions</p>
-            <div class="carousel__wrapper">
+    <section class="py-md-5 scroller">
+        <div class="container"> 
+            <h2 class="fs-3 text-center text-white spacing-x fw-medium">Our Expertise in Interior Design</h2>
+            <p class="top__title text-center text-white fw-medium lead-lg">Welcome to Innovare Constructions</p>
+            <div class="carousel__wrapper mt-4">
                 <div class="owl-carousel serviceSlider">
                     <div class="services__card bg-primary text-white">
                         <p class="mb-2 fs-3 fw-bold text-white opacity-50">01</p>
@@ -113,9 +114,9 @@
     <!-- Interior Design Services end -->
 
     <!-- Why Choose section Start -->
-    <section class="py-3">
+    <section class="py-5">
         <div class="container">
-            <div class="row g-4 g-xxl-5">
+            <div class="row g-4 gx-xxl-5">
                 <div class="col-lg-5 order-lg-2 align-items-center d-flex">
                     <img 
                         src="assets/images/interior/dining-room.webp" 
@@ -125,9 +126,11 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white text-center text-lg-start">
-                        <p class="top__title text-white fw-semibold lead-lg m-0">Why Choose Innovare for Your</p> 
-                        <h2 class="fs-1 fw-bold spacing-x text-uppercase"> Interior Design Needs in Kottayam</h2>
-                        <p class="top__title text-white fw-semibold lead-lg pt-4 mb-0">Unmatched Experience and Craftsmanship</p>
+                        <h2 class="fs-1 fw-bold spacing-x text-uppercase"> 
+                            <span class="top__title text-white fw-medium lead-lg m-0 d-block">Why Choose Innovare for Your</span> 
+                            Interior Design Needs in Kottayam
+                        </h2>
+                        <p class="top__title text-white fw-semibold lead-lg pt-3 mb-0">Unmatched Experience and Craftsmanship</p>
                         <p class="m-0">
                             At Innovare Constructions, our philosophy is deeply rooted in the power of connections. As a cherished family-owned enterprise, we place immense value on family principles, mirroring these ideals in every facet of our client interactions and business operations. Our commitment extends beyond mere transactions; we endeavor to forge lasting relationships, understanding that every project we undertake is a personal journey for our clients. This belief in strong, personal connections is what sets us apart, guiding us to tailor our services to reflect the unique visions and aspirations of those we serve.
                         </p>
@@ -148,41 +151,43 @@
 
     <!-- Design Process Services Start --> 
     <section class="py-5 scroller">
-        <div class="container py-xl-5"> 
-            <h2 class="fs-3 text-center text-white spacing-x ">Our Design Process</h2>
-            <p class="top__title text-center text-white fw-semibold lead-lg pb-4">Bringing Your Vision to Life with Innovare</p>
+        <div class="container pb-xl-5"> 
+            <h2 class="fs-2 text-center text-white spacing-x fw-semibold pb-4 text-uppercase">
+                Our Design Process
+                <span class="top__title text-center text-white fw-medium lead-lg d-block">Bringing Your Vision to Life with Innovare</span>
+            </h2>
             <div class="carousel__wrapper">
                 <div class="owl-carousel serviceSlider">
                     <div class="services__card bg-primary text-white">
-                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">01</p>
+                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">Step 1</p>
                         <h3 class="fs-5 title fw-bold text-uppercase"> 
                             Initial Consultation
                         </h3>
                         <p class="mt-3"><strong>Discovering Your Dream:</strong> Your journey with Innovare, the leading interior designers in Kottayam, begins with a personal consultation. Here, we dive deep into your vision, preferences, and lifestyle needs to ensure our design aligns perfectly with your expectations.</p>  
                     </div> 
                     <div class="services__card bg-primary text-white">
-                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">02</p>
+                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">Step 2</p>
                         <h3 class="fs-5 title fw-bold text-uppercase">  
                             Design Conceptualization
                         </h3>
                         <p class="mt-3"><strong>Crafting Your Concept:</strong> Leveraging our expertise as home interior designers in Kottayam, we translate your ideas into a detailed design concept. This phase is all about creativity and innovation, ensuring your space's potential is fully realized.</p> 
                     </div>
                     <div class="services__card bg-primary text-white">
-                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">03</p>
+                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">Step 3</p>
                         <h3 class="fs-5 title fw-bold text-uppercase"> 
                             3D Rendering Previews
                         </h3>
                         <p class="mt-3"><strong>Visualizing the Future:</strong> With state-of-the-art 3D rendering technology, we offer you a glimpse into your project's future. These previews allow for adjustments and refinements, ensuring the final outcome is exactly as you envisioned.</p> 
                     </div>
                     <div class="services__card bg-primary text-white">
-                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">04</p>
+                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">Step 4</p>
                         <h3 class="fs-5 title fw-bold text-uppercase"> 
                             Material Selection
                         </h3>
                         <p class="mt-3"><strong>Choosing with Care:</strong> Selecting the right materials is crucial for bringing the design to life. We guide you through this process, offering expert advice on choosing materials that blend quality with style.</p> 
                     </div>
                     <div class="services__card bg-primary text-white">
-                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">05</p>
+                        <p class="mb-2 fs-3 fw-bold text-white opacity-50">Step 5</p>
                         <h3 class="fs-5 title fw-bold text-uppercase"> 
                             Project Execution
                         </h3>
@@ -196,12 +201,12 @@
     <!-- Design Process Services end -->
 
     <!-- Client and Script List --> 
-    <?php $folder='root'; include_once('includes/client.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/video-section.inc.php'); ?> 
  
     <!-- Solutions Services Start --> 
     <section class="py-5">
         <div class="container py-xl-3"> 
-            <h2 class="fs-3 text-center text-white spacing-x pb-4">Innovative Solutions for Every Space by Innovare</h2>
+            <h2 class="fs-3 text-uppercase text-center text-white spacing-x pb-4">Innovative Solutions for Every Space by Innovare</h2>
             <div class="carousel__wrapper">
                 <div class="owl-carousel serviceSlider">
                     <div class="services__card bg-primary text-white">
@@ -232,7 +237,7 @@
     <!-- Solutions Services end -->
 
     <!-- Successful section --> 
-    <?php $folder='root'; include_once('includes/successful.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/projects-section.inc.php'); ?> 
     <!-- Successful section --> 
 
     <!-- Testminal section --> 
@@ -244,13 +249,11 @@
     <!--Blogs section --> 
 
     <!--lets-discuss section --> 
-    <?php $folder='root'; include_once('includes/lets-discuss.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/contact-section.inc.php'); ?> 
     <!--lets-discuss section --> 
 
     <!-- Footer and Script List --> 
-    <?php $folder='root'; include_once('includes/footer.inc.php'); ?> 
-    <!-- Number Counter Script -->
-    <?php $folder='root'; include_once('includes/counter-script.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/footer.inc.php'); ?>  
  
 </body>
 </html>

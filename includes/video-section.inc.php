@@ -1,6 +1,6 @@
     <!-- Client View Services Start -->
     <div class="">
-        <div class="container-fluid">
+        <div class="container-fluid px-0">
             <div class="position-relative">
                 <img src="assets/images/home/3d-rendering.webp" class="img-fluid" width="6441662" heig554ht="587" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center" style="background-color: #00000052;">

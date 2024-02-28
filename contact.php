@@ -18,16 +18,19 @@
 
     
     <!-- header section start -->
-    <header class="">
-        <div class="container"> 
-            <img 
-                src="assets/images/about/about__hero.webp" 
-                width="19129603" height="197"
-                alt="<?php echo $site_name;?>"
-                class="img-fluid w-100 object-fit-cover"
-            >
-        </div>
-    </header>
+    <div class="container"> 
+        <img 
+            srcset="
+                assets/images/about/hero-bg-sm.webp 575w,
+                assets/images/about/hero-bg-md.webp 991w,
+                assets/images/about/hero-bg.webp 1200w
+            " 
+            src="assets/images/about/hero-bg.webp" 
+            width="1296" height="197"
+            alt="<?php echo $site_name;?>"
+            class="img-fluid w-100 object-fit-cover rounded-3"
+        >
+    </div> 
     <!-- header section end -->
 
     <!--map section --> 
@@ -35,7 +38,11 @@
     <!--map section --> 
 
     <!--lets-discuss section --> 
-    <?php $folder='root'; include_once('includes/lets-discuss.inc.php'); ?> 
+    <?php 
+        $title="Join Us on Your Next Project";
+        $description="Whether you're dreaming of a cozy home for your family or envisioning a commercial space that stands out, Innovare Constructions is here to turn your dreams into reality. Contact us today to embark on a journey toward creating spaces that not only meet your needs but also inspire and delight. Let's build something extraordinary together.";
+        include_once('includes/contact-section.inc.php'); 
+    ?> 
     <!--lets-discuss section --> 
 
     <!-- Footer and Script List --> 

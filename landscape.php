@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="<?php echo $base_url;?>assets/images/favicon.ico" type="image/x-icon"> 
-    <title>Landscape</title>
+    <title>Landscape Design</title>
     
     <!-- All Stylesheets -->
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
@@ -18,26 +18,31 @@
 
     
     <!-- header section start -->
-    <header class="">
-        <div class="container"> 
-            <img 
-                src="assets/images/landscape/slider__hero.webp" 
-                width="1296" height="197"
-                alt="<?php echo $site_name;?>"
-                class="img-fluid w-100 object-fit-cover"
-            >
-        </div>
-    </header>
+    <div class="container"> 
+        <img 
+            srcset="
+                assets/images/landscape/hero-bg-sm.webp 575w,
+                assets/images/landscape/hero-bg-md.webp 991w,
+                assets/images/landscape/hero-bg.webp 1200w
+            " 
+            src="assets/images/landscape/hero-bg.webp" 
+            width="1296" height="197"
+            alt="<?php echo $site_name;?>"
+            class="img-fluid w-100 object-fit-cover rounded-3"
+        >
+    </div> 
     <!-- header section end -->
 
     <!--  Pioneering section Start -->
     <section class="py-5 bg-primary">
-        <div class="container py-xl-5">
-            <div class="row g-4 g-xxl-5">
+        <div class="container pt-xl-4">
+            <div class="row g-4 gx-xxl-5">
                 <div class="col-lg-6">
                     <div class="py-lg-2 text-white text-center text-lg-start">
-                        <p class="top__title text-white fw-semibold lead-lg">Innovare Construction</p>
-                        <h2 class="fs-1 fw-bold spacing-x">Pioneering Landscape Design in Kottayam</h2>
+                        <h2 class="fs-1 fw-bold spacing-x text-uppercase">
+                            <span class="top__title text-white fw-semibold lead-lg mb-2">Innovare Construction</span>
+                            Pioneering Landscape Design in Kottayam
+                        </h2>
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-6">
@@ -54,9 +59,9 @@
     <!--  Pioneering section End -->
 
     <!-- Discover Services Start --> 
-    <section class="py-5">
+    <section class="py-md-5">
         <div class="container"> 
-            <h2 class="fs-3 text-center text-white spacing-x pb-4">Discover the Innovare Difference in Landscape Design</h2>
+            <h2 class="fs-3 text-center text-white spacing-x pb-4 text-uppercase">Discover the Innovare Difference in Landscape Design</h2>
             <div class="carousel__wrapper">
                 <div class="owl-carousel serviceSlider">
                     <div class="services__card bg-primary text-white">
@@ -99,8 +104,8 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white text-center text-lg-start">
-                        <h2 class="fs-1 fw-bold spacing-x text-uppercase">Innovare's Comprehensive Landscape Design Services in Kottayam</h2>
-                        <p class="top__title text-white fw-semibold lead-lg pt-4 mb-0">Tailored Consultation & Site Analysis</p>
+                        <h2 class="fs-1 fw-semibold spacing-x text-uppercase">Innovare's Comprehensive Landscape Design Services in Kottayam</h2>
+                        <p class="top__title text-white fw-semibold lead-lg pt-3 mb-0">Tailored Consultation & Site Analysis</p>
                         <p class="m-0">
                             Every great landscape starts with a vision. At Innovare, the premier landscape designers in Kottayam, we begin with a comprehensive consultation and site analysis. This crucial first step ensures that your vision aligns perfectly with the potential of your space, laying the groundwork for a design that complements your lifestyle and the natural surroundings.
                         </p>
@@ -120,13 +125,15 @@
     <!-- Comprehensive section End -->
 
     <!-- Client and Script List --> 
-    <?php $folder='root'; include_once('includes/client.inc.php'); ?>
+    <?php $folder='root'; include_once('includes/video-section.inc.php'); ?>
     
     <!-- Elevating Home Services Start --> 
     <section class="py-5">
-        <div class="container"> 
-            <p class="top__title text-center text-white fw-semibold lead-lg m-0">The Innovare Difference</p>
-            <h2 class="fs-3 text-center text-white spacing-x pb-4">Elevating Landscaping in Kottayam</h2>
+        <div class="container pt-lg-4"> 
+            <h2 class="fs-2 text-center text-white spacing-x pb-4 text-uppercase">
+                <span class="top__title text-center text-white fw-medium d-block lead-lg mb-2">The Innovare Difference</span>
+                Elevating Landscaping in Kottayam
+            </h2>
             <div class="carousel__wrapper">
                 <div class="owl-carousel serviceSlider">
                     <div class="services__card bg-primary text-white">
@@ -149,14 +156,9 @@
                     </div>
                 </div><!--//.owl-carousel-->
             </div><!--//.carousel__weraper-->
-        </div><!--//.container-fluid-->
-    </section>
-    <!-- Elevating Home Services end -->
 
-    <!--Innovare Constructions section Start -->
-    <section class="">
-        <div class="container">
-            <div class="row g-4 g-xxl-5">
+
+            <div class="row g-4 gx-xxl-5 mt-4 mt-lg-5">
                 <div class="col-lg-5 order-lg-2">
                     <img 
                         src="assets/images/landscape/luxury-garden.webp" 
@@ -167,20 +169,20 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white  text-center text-lg-start">
-                        <h2 class="fs-1 fw-bold spacing-x pb-3">Begin Your Outdoor Transformation with Innovare</h2>
-                        <p class="text-white fw-semibold lead-lg">Embark on a Journey to Your Dream Landscape</p> 
+                        <h2 class="fs-2 fw-semibold spacing-x pb-2 text-uppercase">Begin Your Outdoor Transformation with Innovare</h2>
+                        <p class="text-white fw-semibold lead-lg mb-2">Embark on a Journey to Your Dream Landscape</p> 
                         <p class="">
                             Ready to redefine your outdoor space? Contact Innovare, the premier landscape designers in Kottayam, for a complimentary consultation. Dive into the world of sustainable landscape design and discover the potential of your outdoor living spaces. Reach out today via our contact form or call us directly to start your landscape transformation journey.
                         </p>
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
-        </div><!--//.container-->
+        </div><!--//.container-fluid-->
     </section>
-    <!--Innovare Constructions section End -->
-
+    <!-- Elevating Home Services end -->
+ 
     <!-- Successful section --> 
-    <?php $folder='root'; include_once('includes/successful.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/projects-section.inc.php'); ?> 
     <!-- Successful section --> 
 
     <!-- Testminal section --> 
@@ -192,7 +194,7 @@
     <!--Blogs section --> 
 
     <!--lets-discuss section --> 
-    <?php $folder='root'; include_once('includes/lets-discuss.inc.php'); ?> 
+    <?php $folder='root'; include_once('includes/contact-section.inc.php'); ?> 
     <!--lets-discuss section --> 
 
     <!-- Footer and Script List --> 

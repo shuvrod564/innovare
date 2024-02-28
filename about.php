@@ -18,16 +18,19 @@
 
     
     <!-- header section start -->
-    <header class="">
-        <div class="container"> 
-            <img 
-                src="assets/images/about/about__hero.webp" 
-                width="19129603" height="197"
-                alt="<?php echo $site_name;?>"
-                class="img-fluid w-100 object-fit-cover"
-            >
-        </div>
-    </header>
+    <div class="container"> 
+        <img 
+            srcset="
+                assets/images/about/hero-bg-sm.webp 575w,
+                assets/images/about/hero-bg-md.webp 991w,
+                assets/images/about/hero-bg.webp 1200w
+            " 
+            src="assets/images/about/hero-bg.webp" 
+            width="1296" height="197"
+            alt="<?php echo $site_name;?>"
+            class="img-fluid w-100 object-fit-cover rounded-3"
+        >
+    </div> 
     <!-- header section end -->
 
     <!--  About section Start -->
@@ -36,7 +39,7 @@
             <div class="row g-4 g-xxl-5">
                 <div class="col-lg-6">
                     <div class="py-lg-2 text-white text-center text-lg-start">
-                        <h2 class="fs-1 fw-bold spacing-x">About Innovare Constructions</h2>
+                        <h2 class="fs-1 fw-bold spacing-x text-uppercase">About Innovare Constructions</h2>
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-6">
@@ -48,14 +51,8 @@
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
-        </div><!--//.container-->
-    </section>
-    <!--  About section End -->
 
-    <!-- Commitment section Start -->
-    <section class="py-5">
-        <div class="container py-xl-4">
-            <div class="row g-4 g-xxl-5">
+            <div class="row g-4 gx-xxl-5 mt-4">
                 <div class="col-lg-5 order-lg-2 align-items-center d-flex">
                     <img 
                         src="assets/images/about/modern.webp" 
@@ -65,7 +62,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 order-lg-1 d-flex align-items-center">
                     <div class="py-lg-2 text-white text-center text-lg-start">
-                        <h2 class="fs-1 fw-bold spacing-x text-uppercase">Our Commitment to Excellence</h2>
+                        <h2 class="fs-1 fw-bold spacing-x text-uppercase mb-3">Our Commitment to Excellence</h2>
                         <p class="m-0">
                             At Innovare Constructions, excellence is not just a goal; it's our way of life. We pride ourselves on our unwavering commitment to quality craftsmanship, meticulous attention to detail, and the pursuit of innovative solutions. Our passion for what we do is evident in every brick laid and every space designed, ensuring that we not only meet but exceed your expectations. From the moment of our initial consultation to the joyous occasion of handing over your new keys, our team is dedicated to providing a seamless and stress-free experience, treating your project with the utmost professionalism and care.
                         </p>
@@ -74,12 +71,12 @@
             </div><!--//.row-->
         </div><!--//.container-->
     </section>
-    <!-- Commitment section End -->
+    <!--  About section End --> 
 
     <!-- Our Vision section Start -->
     <section class=" pt-3 pb-5 scroller">
         <div class="container">
-            <h2 class="fs-1 fw-bold text-center text-white spacing-x text-uppercase pb-4">Our Vision and Mission</h2>
+            <h2 class="fs-1 fw-semibold text-center text-white spacing-x text-uppercase pb-4">Our Vision and Mission</h2>
             <div class="row g-4 g-xxl-5">
                 <div class="col-lg-6 col-md-6 d-flex">
                     <div class="service__card bg-primary w-100 text-white p-3 p-md-4" style="border: 1px solid #FAFAFA4E;">
@@ -107,7 +104,11 @@
     <!-- Testminal section --> 
 
     <!--lets-discuss section --> 
-    <?php $folder='root'; include_once('includes/lets-discuss.inc.php'); ?> 
+    <?php 
+        $title="Join Us on Your Next Project";
+        $description="Whether you're dreaming of a cozy home for your family or envisioning a commercial space that stands out, Innovare Constructions is here to turn your dreams into reality. Contact us today to embark on a journey toward creating spaces that not only meet your needs but also inspire and delight. Let's build something extraordinary together.";
+        include_once('includes/contact-section.inc.php'); 
+    ?> 
     <!--lets-discuss section --> 
 
     <!-- Footer and Script List --> 
