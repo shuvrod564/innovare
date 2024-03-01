@@ -62,7 +62,7 @@
                             At Innovare Constructions, we’re not just building spaces; we’re crafting your future. Our dedication is to not only meet but exceed your expectations, ensuring every project is handled with the utmost professionalism and care. This ethos is embedded in every layer of our operations, from the initial consultation to the final handover of your project. We understand that embarking on a construction project, be it commercial, residential, or anything in between, is a significant step towards realizing a dream for many of our clients. That’s why we approach every task with a blend of precision, creativity, and a deep understanding of our clients’ visions.
                         </p>
                         <div class="text-center text-lg-start mt-4">
-                            <a href="#" class="btn btn-outline-white height fw-semibold" aria-label="READ MORE">READ MORE</a> 
+                            <a href="about.php" class="btn btn-outline-white height fw-semibold" aria-label="READ MORE">READ MORE</a> 
                         </div>
                     </div>
                 </div><!--//.col-->
@@ -80,10 +80,10 @@
                     <div class="z-index">
                         <p class="mb-2 fs-3 fw-bold text-white opacity-50">01</p>
                         <h3 class="fs-5 title fw-bold"> 
-                            <a class="text-white" href="#">COMMERCIAL CONSTRUCTION</a> 
+                            <a class="text-white" href="<?php echo $base_url;?>construction.php">COMMERCIAL CONSTRUCTION</a> 
                         </h3>
                         <p class=" mt-4 text-white">Our team specializes in bringing commercial visions to life. From office buildings to retail spaces, we ensure every project is completed on time, within budget, and beyond expectations.</p> 
-                        <a href="#" class="icon" aria-label="Arrow" title="Know More"> 
+                        <a href="<?php echo $base_url;?>construction.php" class="icon" aria-label="Arrow" title="Know More"> 
                             <img src="assets/images/icons/right-arrow.svg" width="27" height="15" alt="Arrow">
                         </a>
                     </div> 
@@ -94,10 +94,10 @@
                     <div class="z-index">
                         <p class="mb-2 fs-3 fw-bold text-white opacity-50">02</p>
                         <h3 class="fs-5 title fw-bold"> 
-                            <a class="text-white" href="#">RESIDENTIAL CONSTRUCTION</a> 
+                            <a class="text-white" href="<?php echo $base_url;?>construction.php">RESIDENTIAL CONSTRUCTION</a> 
                         </h3>
                         <p class=" mt-4 text-white">Your home should be a reflection of your individuality. At Innovare, we understand this, which is why we take great care in constructing residential spaces that feel as unique as you are.</p> 
-                        <a href="#" class="icon" aria-label="Arrow" title="Know More"> 
+                        <a href="<?php echo $base_url;?>construction.php" class="icon" aria-label="Arrow" title="Know More"> 
                             <img src="assets/images/icons/right-arrow.svg" width="27" height="15" alt="Arrow">
                         </a>
                     </div> 
@@ -138,12 +138,12 @@
                     <div class="z-index">
                         <p class="mb-2 fs-3 fw-bold text-white opacity-50">05</p>
                         <h3 class="fs-5 title fw-bold"> 
-                            <a class="text-white" href="<?php echo $base_url;?>landcape.php">Landscaping</a> 
+                            <a class="text-white" href="<?php echo $base_url;?>landscape.php">Landscaping</a> 
                         </h3>
                         <p class=" mt-4 text-white">
                             Our landscaping services are designed to enhance your outdoor spaces, creating beautiful, sustainable environments that uplift and inspire. 
                         </p> 
-                        <a href="<?php echo $base_url;?>landcape.php" class="icon" aria-label="Arrow" title="Know More"> 
+                        <a href="<?php echo $base_url;?>landscape.php" class="icon" aria-label="Arrow" title="Know More"> 
                             <img src="assets/images/icons/right-arrow.svg" width="27" height="15" alt="Arrow">
                         </a>
                     </div> 
