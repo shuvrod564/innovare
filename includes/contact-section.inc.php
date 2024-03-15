@@ -17,7 +17,7 @@
                     </div>
                 </div><!--./col-->
                 <div class="col-lg-6">
-                    <form class="form-bg" id="contactForm" method="post" action="contact-from.php"> 
+                    <form class="form-bg" id="contactForm" method="post" action="<?php echo $base_url; ?>submit-contact-form.php"> 
                         <div class="controls d-flex flex-column gap-4">
                             <div class="">
                                 <div class="form-group">

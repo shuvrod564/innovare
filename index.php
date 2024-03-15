@@ -227,19 +227,19 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="text-white d-flex align-items-center gap-3">
-                        <div class="display-4 fw-bold d-inline-flex counter__box"><span class="counter d-inline-block" data-count="820">0</span> +</div>
+                        <div class="display-4 fw-bold d-inline-flex counter__box"><span class="counter d-inline-block" data-count="20">0</span> +</div>
                         <div class="fs-6 fw-bold col">CLIENT SATISFACTION GUARANTEED</div>
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-4 col-md-6">
                     <div class="text-white d-flex align-items-center gap-3">
-                        <div class="display-4 fw-bold d-inline-flex counter__box"><span class="counter d-inline-block" data-count="650">0</span> +</div>  
+                        <div class="display-4 fw-bold d-inline-flex counter__box"><span class="counter d-inline-block" data-count="50">0</span> +</div>  
                         <div class="fs-6 fw-bold col">EMPLOYEE ON WORLDWIDE</div>
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-4 col-md-6">
                     <div class="text-white d-flex align-items-center gap-3">
-                        <div class="display-4 fw-bold d-inline-flex counter__box"><span class="counter d-inline-block" data-count="987">0</span> +</div> 
+                        <div class="display-4 fw-bold d-inline-flex counter__box"><span class="counter d-inline-block" data-count="26">0</span> +</div> 
                         <div class="fs-6 fw-bold col">PROJECTS COMPLETED ON 60 COUNTRIES</div>
                     </div>
                 </div><!--//.col-->

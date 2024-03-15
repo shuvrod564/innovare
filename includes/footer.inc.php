@@ -31,12 +31,12 @@
                     </div><!--.//col-->
                     <div class="col-lg-5 col-md-6 col-sm-6">      
                         <p class="text-white fw-medium lead-sm mb-1">Email</p>
-                        <a href="#" class="text-white ff-heading text-lowercase">innovarecojnstruction@gmail.com</a>
+                        <a href="mailto:innvovareconstructions@gmail.com" class="text-white ff-heading text-lowercase">innvovareconstructions@gmail.com</a>
                         <p class="text-white fw-medium lead-sm mt-3 mb-1">Phone</p>
                         <a href="teL:+917511161313" class="text-white ff-heading text-lowercase">+91 751 116 1313</a> 
                         <p class="text-white fw-medium lead-sm mt-3 mb-1">Address</p>
                         <address class="text-white ff-heading text-lowercase">
-                        1/104C plathottathil building Poonjar po ,perunilam ,kottayam
+                        1/104C plathottathil building Poonjar po ,perunilam ,kottayam
                         </address>
                     </div><!--.//col-->
                     <div class="col-lg-4 col-md-6 col-sm-6">
